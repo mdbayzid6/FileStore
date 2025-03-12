@@ -168,7 +168,7 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [
-                    [InlineKeyboardButton("• ᴍᴏʀᴇ ᴄʜᴀɴɴᴇʟs •", url="https://t.me/Nova_Flix/50")],
+                    [InlineKeyboardButton("• ᴊᴏɪɴ ᴛᴇʟᴇɢʀᴀᴍ •", url="https://t.me/+qc_PzIzLHG44YzQ1")],
 
     [
                     InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data = "about"),
@@ -240,7 +240,7 @@ async def not_joined(client: Client, message: Message):
     try:
         buttons.append([
             InlineKeyboardButton(
-                text="ʀᴇʟᴏᴀᴅ",
+                text="• ᴛʀʏ ᴀɢᴀɪɴ •",
                 url=f"https://t.me/{client.username}?start={message.command[1]}"
             )
         ])
