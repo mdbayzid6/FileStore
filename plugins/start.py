@@ -137,7 +137,7 @@ async def start_command(client: Client, message: Message):
 
         if FILE_AUTO_DELETE > 0:
             notification_msg = await message.reply(
-                f"<b>This file will be deleted in {get_exp_time(FILE_AUTO_DELETE)}. Please save or forward it to your saved messages before it gets deleted.</b>"
+                f"- This File Will Be Deleted In {get_exp_time(FILE_AUTO_DELETE)}. Please Save Or Forward It To Your Saved Messages To Get This File Later…!👻\n\n🌟 Visit Our Site : https://blmbd.click"
             )
 
             await asyncio.sleep(FILE_AUTO_DELETE)
@@ -160,7 +160,7 @@ async def start_command(client: Client, message: Message):
                 ) if reload_url else None
 
                 await notification_msg.edit(
-                    "<b>ʏᴏᴜʀ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ ɪꜱ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ !!\n\nᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴅᴇʟᴇᴛᴇᴅ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ 👇</b>",
+                    "- Your Desired File Is Deleted. Click Get File Again Button To Get Your Deleted File Again…!👻\n\n🌟 Visit Our Site : https://blmbd.click",
                     reply_markup=keyboard
                 )
             except Exception as e:
